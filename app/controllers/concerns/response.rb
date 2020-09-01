@@ -1,5 +1,5 @@
 module Response
-  def json_response messages, is_success, data, status
+  def json_response(messages, is_success, data, status)
     render json: {
       messages: messages,
       is_success: is_success,
