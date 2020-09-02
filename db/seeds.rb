@@ -23,8 +23,8 @@ end
 p "Seeding 100 reviews"
 100.times do |n|
   Review.create! title: "best book ever",
-    content_rating: Faker::Number.between(1, 10),
-    recommend_rating: Faker::Number.between(1, 10),
-    user_id: Faker::Number.between(1, 10),
-    book_id: Faker::Number.between(1, 20)
+    content_rating: Faker::Number.between(from: 1, to: 10),
+    recommend_rating: Faker::Number.between(from: 1, to: 10),
+    user_id: Faker::Number.between(from: 1, to: 10),
+    book_id: Faker::Number.between(from: 1, to: 20)
 end
