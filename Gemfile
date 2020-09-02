@@ -29,7 +29,9 @@ gem 'devise', '~> 4.2'
 gem 'faker'
 gem 'hirb', '~> 0.7.3'
 gem 'koala', '~> 2.4'
+gem 'paperclip'
 gem 'rack-cors'
+gem 'rubocop-faker'
 gem 'simple_token_authentication', '~> 1.0'
 
 group :development, :test do
